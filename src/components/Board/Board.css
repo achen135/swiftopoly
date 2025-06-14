@@ -1,0 +1,35 @@
+.board_container {
+  background-color: #aaf7ba;
+  height: 95vh;
+  width: 95vh;
+  margin: auto;
+}
+
+.board_grid {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.tile {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.corner {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.player_tolken {
+  position: absolute;
+  background-color: blue;
+}
